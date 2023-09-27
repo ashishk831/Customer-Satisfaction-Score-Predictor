@@ -12,9 +12,10 @@ The purpose of this repository is to demonstrate how ZenML empowers your busines
 * By integrating with tools like MLflow for deployment, tracking and more
 * By allowing you to build and deploy your machine learning pipelines easily
 ## Python Requirements
-git clone https://github.com/zenml-io/zenml-projects.git
+
+``git clone https://github.com/zenml-io/zenml-projects.git
 cd zenml-projects/customer-satisfaction
-pip install -r requirements.txt
+pip install -r requirements.txt``
 
 Starting with ZenML 0.20.0, ZenML comes bundled with a React-based dashboard. This dashboard allows you to observe your stacks, stack components and pipeline DAGs in a dashboard interface. To access this, you need to launch the ZenML Server and Dashboard locally, but first you must install the optional dependencies for the ZenML server:
 ```
